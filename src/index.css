@@ -1,0 +1,114 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+/* @import './assets/Poppins-Medium.ttf'; */
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./assets/Poppins-Medium.ttf');
+}
+
+:root {
+	--background: #f9f7f7;
+	--alt-background: #dbe2ef;
+	--primary: #3f72af;
+	--alt-primary: #112d4e;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100vw;
+	/* height: 100vh; */
+	background-color: var(--background);
+	font-family: poppins, sans-serif;
+}
+
+.app {
+	min-height: 100vh;
+	height: 100vh;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.window {
+	height: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	width: 120px;
+	aspect-ratio: 1/1;
+	background-color: var(--primary);
+	margin: 50px 0;
+}
+
+.dashboard {
+	background-color: var(--alt-background);
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+h3:first-of-type {
+	padding-top: 10px;
+}
+
+h3.last {
+	display: inline;
+	font-size: 1.1rem;
+}
+
+.control {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rightBox {
+	width: 45%;
+}
+
+.leftBox {
+	width: 45%;
+}
+
+.btn {
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+	text-transform: none !important;
+	font-size: 1rem !important;
+	width: fit-content;
+}
+
+#css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+	text-transform: none !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
